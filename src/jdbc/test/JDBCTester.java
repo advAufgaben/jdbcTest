@@ -17,7 +17,5 @@ public class JDBCTester {
 		while (rset.next()) {
 			System.out.println(rset.getString(1));
 		}
-		return;
-		
 	}
 }
